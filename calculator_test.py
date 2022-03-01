@@ -9,9 +9,13 @@ class Test(unittest.TestCase):
         result = self.calculator.add(4,8)
         self.assertEqual(result,12)
 
-    def test_1_sub(self):
-        result = self.calulator.sub(24,10)
+    def test_1_substract(self):
+        result = self.calculator.subtract(24,10)
         self.assertEqual(result,14)
+ 
+      def test_2_ multiply(self):
+        result = self.calculator. multiply(8,2)
+        self.assertEqual(result,16)  
 
 if __name__ == '__main__':
     # begin the unittest.main()
